@@ -1,0 +1,77 @@
+body {
+font-family: 'Montserrat', sans-serif;
+background-image: url("https://images.unsplash.com/photo-1600628421066-f6bda6a7b976?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2QlMjBmcmllbmRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color:rgba(187, 224, 175, 0.9);
+min-height: 100vh;
+}
+.container {
+    background-color: #99DDCC;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 600px;
+height: 725px;
+border-radius: 40px;
+color: #9C19E0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    color: #000D6B;
+    align-self: center;
+}
+input {
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.addTip {
+background-color:#FF5DA2;
+border: none;
+border-radius: 10px;
+padding: 5px;
+font-family: 'Montserrat', sans-serif;
+}
+.btn {
+background-color: #998CEB;
+padding: 10px;
+border-radius: 10px;
+border: none;
+margin-top: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+#tip {
+    display: none;
+}
+.billSplit, .totalTip, .totalAmount {
+    background-color: #FBF46D;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+.total {
+    display: flex;
+}
+.person {
+    width: 50px;
+    height: 50px;
+    padding: 0px;  
+}
+.divPerson {
+    display: flex;
+}
+.addPerson {
+    background-color: #B4FE98;
+padding: 10px;
+border-radius: 10px;
+border: none;
+margin-top: 10px;
+font-family: 'Montserrat', sans-serif;
+}
